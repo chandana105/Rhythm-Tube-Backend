@@ -1,6 +1,6 @@
 const videoList = [
   {
-    videoId: "6FURuLYrR_Q&t=14s",
+    videoId: "6FURuLYrR_Q",
     hashTag: "#ADHMMusicVideo",
     title: "Ae Dil Hai Mushkil Title Track Full Video - Ranbir, Anushka, Aishwarya|Arijit|Pritam",
     viewsCount: "300,360,070",
@@ -26,15 +26,15 @@ const videoList = [
     category: ["Bollywood Latest"]
   },
   {
-    videoId: "dsf9toVwZg4",
-    title: "Prem's Theme",
-    viewsCount: "1,720,381",
-    uploadDate: "Nov 6, 2019",
-    channelName: "Papon",
-    channelLogo: "https://yt3.ggpht.com/ytc/AKedOLRGYkRLThrSPEdtg5GSNPpJzMzN3HJcGV0noLp5yg=s88-c-k-c0x00ffffff-no-rj",
-    subscriberCount: "544K",
-    description: "Provided to YouTube by yrfmusic,Prem's Theme · Papon,Dum Laga Ke Haisha,Yash Raj Films Pvt. Ltd.",
-    duration: "3:05",
+    videoId: "ZvPcEMkFQB0",
+    title: "Best 15 Songs Shreya Ghoshal Hindi Hits Collection 2021",
+    viewsCount: "1,532,530",
+    uploadDate: "Jan 24, 2021",
+    channelName: "Music",
+    channelLogo: "	https://yt3.ggpht.com/ytc/AKedOLQx69IlUhiXGH0_QCHy3kmaupKTP7XdTnQyJUP-=s88-c-k-c0x00ffffff-no-rj",
+    subscriberCount: "76.5K",
+    description: "Best 15 Songs Shreya Ghoshal Hindi Hits Collection 2021",
+    duration: "1:18:12",
     category: ["Bollywood Latest"]
   },
   {
@@ -64,7 +64,7 @@ const videoList = [
     category: ["Bollywood Latest"]
   },
   {
-    videoId: "zkQQDMuglcE&t=22s",
+    videoId: "zkQQDMuglcE",
     title: "Best jukebox | AR.Rahman's hits |Superhit Bollywood Songs Collection | Audio Jukebox",
     viewsCount: "12,129,058",
     uploadDate: "Jun 27, 2019",
@@ -124,15 +124,15 @@ const videoList = [
     category: ["Bollywood Retro"]
   },
   {
-    videoId: "ua4GW8uAOcw",
-    title: "Hits Of Manna Dey - Old Bollywood Songs - Audio Jukebox - Vol 1 - Best Of Manna Dey",
-    viewsCount: "2,355,405",
-    uploadDate: "Oct 24, 2013",
-    channelName: "Saregama GenY",
-    channelLogo: "		https://yt3.ggpht.com/ytc/AKedOLTESylYG8HxspaAlZeWvalNEPwpt35tHbJ2TU1VKg=s88-c-k-c0x00ffffff-no-rj",
-    subscriberCount: "3.72M",
-    description: "Prabodh Chandra Dey (1st May 1919 - 24th October 2013)  better known by his nickname Manna Dey, was a playback singer in Hindi, Bengali, Gujarati, Marathi, Malayalam, Kannada, Assamese films. The Government of India honoured him with the Padma Shri in 1971, the Padma Bhushan in 2005 and the Dadasaheb Phalke Award in 2007. Along with Mohammed Rafi, Kishore Kumar, Mukesh he was a part of Indian film playback music industry. He is rated as the best classical singer among all singers of Hindi film music, though he sang various types of songs from pop to folk. He has recorded more than 3500 songs over the course of his career. Listen and Enjoy the Best Of Manna Dey Songs and Share it across.",
-    duration: "51:39",
+    videoId: "u0I8bCWcY3Y",
+    title: "Ae Bhai Zara Dekh Ke Chalo (Full Song)",
+    viewsCount: "598,730",
+    uploadDate: "Jul 4, 2018",
+    channelName: `Avnish Datta The 'Mirza Ghalib' Fan`,
+    channelLogo: "			https://yt3.ggpht.com/ytc/AKedOLS5U2AiRGCGiT5_x5T-5f02tn3U9J8zfJXPJYOJWQ=s88-c-k-c0x00ffffff-no-rj",
+    subscriberCount: "10.1K",
+    description: "Mera Naam Joker (1970)",
+    duration: "6:38",
     category: ["Bollywood Retro"]
   },
   {
@@ -148,16 +148,16 @@ const videoList = [
     category: ["Bollywood Retro"]
   },
   {
-    videoId: "cTvUrpSr9ck",
-    title: "Namak Halaal - Ke Pag Ghunghroo Bandh Meera - Kishore Kumar - Chorus",
-    viewsCount: "29,837,578",
-    uploadDate: "Feb 20, 2009",
-    channelName: "Shemaroo",
-    channelLogo: "			https://yt3.ggpht.com/ytc/AKedOLQZbGIuTaTUh6iJgjPfBKDEDoZzwUDhO6uVOha7=s88-c-k-c0x00ffffff-no-rj",
-    subscriberCount: "32.9M",
-    description: "Movie : Namak Halal,Music Director: Bappi Lahiri ,Singers: Kishore Kumar,Director: Prakash Mehra , Enjoy this super hit song from the 1982 movie Namak Halal starring Shashi Kapoor, Amitabh Bachchan, Parveen Babi and Waheeda Rehman.",
-    duration: "7:48",
-    category: ["Bollywood Retro"]
+    videoId: "sLQngola7cI",
+    title: "ना मुँह छुपा के जियो | Na Moonh Chhupa Ke Jiyo | Mahendra Kapoor | Hamraaz",
+    viewsCount: "299,682",
+    uploadDate: "Oct 9, 2020",
+    channelName: "Eagle Home Entertainments",
+    channelLogo: "			https://yt3.ggpht.com/ytc/AKedOLSGKZXBconQRXRex0yDigcnC_1dCDqnCM8FiVy21g=s88-c-k-c0x00ffffff-no-rj",
+    subscriberCount: "9.01M",
+    description: "Watch - Na Munh Chhupake Jiyo Aur Na Sar Jhuka Ke Jiyo Video Song from Hamraaz Hindi Movie for more videos please subscribe to Eagle Home Entertainments ,Song Title: Na Munh Chhupake Jiyo Aur Na Sar Jhuka Ke Jiyo",
+    duration: "5:01",
+    category: ["Bollywood Retro" , "Motivational"]
   },
   {
     videoId: "h6aGikIL-I4",
@@ -232,16 +232,16 @@ const videoList = [
     category: ["Motivational"]
   },
   {
-    videoId: "6J9okctVu58",
-    title: "Ruk Jana Nahin with lyrics | रुक जाना नहीं गाने के बोल | Imtihan | Tanuja/Vinod Khanna",
-    viewsCount: "16,107,564",
-    uploadDate: "Jan 25, 2017",
-    channelName: "Saregama Music",
-    channelLogo: "					https://yt3.ggpht.com/ytc/AKedOLSGzxiENFZh-9_LqLnaObU9IWtFVNxT4T0m_oNKWQ=s88-c-k-c0x00ffffff-no-rj",
-    subscriberCount: "23.7M",
-    description: 'Enjoy the popular song "Ruk Jana Nahin" in Hindi & English lyrics Sung by Kishore Kumar from the movie Imtihan',
-    duration: "6:55",
-    category: ["Motivational", "Bollywood Retro"]
+    videoId: "eEeX2QMlSlo",
+    title: "Yun Hi Chala Chal Lyrical Video | Swades | A.R. Rahman | Shahrukh Khan",
+    viewsCount: "34,800,925",
+    uploadDate: "Mar 10, 2018",
+    channelName: "Bollywood Classics",
+    channelLogo: "					https://yt3.ggpht.com/ytc/AKedOLT-zOv1lmBQyqijFe1Z1y1p0a3nRbnR9tRZfsbBtA=s88-c-k-c0x00ffffff-no-rj",
+    subscriberCount: "26.2M",
+    description: 'Presenting "Yun Hi Chala Chal" Lyrical Video in the voice of Udit Narayan, Hariharan, Kailash Kher from Hindi movie "Swades" starring Shahrukh Khan, Gayatri Joshi on T-Series Classics.',
+    duration: "7:25",
+    category: ["Motivational", "Bollywood Latest"]
   },
 
 

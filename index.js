@@ -7,6 +7,9 @@ const { errorHandler } = require("./middlewares/error-handler.middleware.js");
 const {
   routeNotFound,
 } = require("./middlewares/route-not-found.middleware.js");
+const {
+  authVerify,
+} = require("./middlewares/auth-handler.middleware.js");
 
 const app = express();
 app.use(bodyParser.json());
@@ -18,6 +21,8 @@ initializeDBConnection();
 const insertIntoDB = require("./routes/insertIntoDB.router");
 const videos = require("./routes/video.router");
 const categories = require('./routes/category.router.js')
+const user = require("./routes/user.router");
+const auth = require('./routes/auth.router.js')
 
 app.get('/', (req, res) => {
   res.send('Welcome to Rhythm Tube')
@@ -26,7 +31,8 @@ app.get('/', (req, res) => {
 app.use("/insert", insertIntoDB);
 app.use("/videos", videos);
 app.use('/categories' , categories);
-
+app.use('/auth' , auth)
+app.use('/user' , authVerify , user)
 
 
 
