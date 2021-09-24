@@ -23,6 +23,8 @@ const videos = require("./routes/video.router");
 const categories = require('./routes/category.router.js')
 const user = require("./routes/user.router");
 const auth = require('./routes/auth.router.js')
+const watchlater = require('./routes/watchlater.router.js');
+const likedVideos = require('./routes/likedVideos.router.js');
 
 app.get('/', (req, res) => {
   res.send('Welcome to Rhythm Tube')
@@ -33,7 +35,8 @@ app.use("/videos", videos);
 app.use('/categories' , categories);
 app.use('/auth' , auth)
 app.use('/user' , authVerify , user)
-
+app.use('/watchlater', authVerify, watchlater)
+app.use('/likedVideos', authVerify, likedVideos)
 
 
 app.use(routeNotFound);
