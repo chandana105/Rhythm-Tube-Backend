@@ -148,15 +148,15 @@ const videoList = [
     category: ["Bollywood Retro"]
   },
   {
-    videoId: "sLQngola7cI",
-    title: "ना मुँह छुपा के जियो | Na Moonh Chhupa Ke Jiyo | Mahendra Kapoor | Hamraaz",
-    viewsCount: "299,682",
-    uploadDate: "Oct 9, 2020",
-    channelName: "Eagle Home Entertainments",
-    channelLogo: "			https://yt3.ggpht.com/ytc/AKedOLSGKZXBconQRXRex0yDigcnC_1dCDqnCM8FiVy21g=s88-c-k-c0x00ffffff-no-rj",
-    subscriberCount: "9.01M",
-    description: "Watch - Na Munh Chhupake Jiyo Aur Na Sar Jhuka Ke Jiyo Video Song from Hamraaz Hindi Movie for more videos please subscribe to Eagle Home Entertainments ,Song Title: Na Munh Chhupake Jiyo Aur Na Sar Jhuka Ke Jiyo",
-    duration: "5:01",
+    videoId: "KsfTT4aZxCo",
+    title: "HUMRAAZ (1967) na moonh chhupa ke jiyo aur na sar jhuka ke jiyo Mahendra Ravi Sahir",
+    viewsCount: "5,344,246",
+    uploadDate: "Nov 16, 2010",
+    channelName: "bhandarikk",
+    channelLogo: "				https://yt3.ggpht.com/ytc/AKedOLSXLvAd7vjqKtEPsaAbcl6i-sAwf4HIUWdbzA=s88-c-k-c0x00ffffff-no-rj",
+    subscriberCount: "66.9K",
+    description: "HUMRAAZ (1967),SUNIL DUTT, VIMMI, RAJKUMAR, MADAN PURI, MUMTAZ, BALRAJ SAHNI,JEEVAN, MUBARAK Produced By: B.R.FILMS Directed By: B.R.CHOPRA Music By: RAVI, SUSPENSE THRILLER, MUSICAL",
+    duration: "5:48",
     category: ["Bollywood Retro" , "Motivational"]
   },
   {

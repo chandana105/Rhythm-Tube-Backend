@@ -25,6 +25,7 @@ const user = require("./routes/user.router");
 const auth = require('./routes/auth.router.js')
 const watchlater = require('./routes/watchlater.router.js');
 const likedVideos = require('./routes/likedVideos.router.js');
+const playlists = require('./routes/playlists.router.js');
 
 app.get('/', (req, res) => {
   res.send('Welcome to Rhythm Tube')
@@ -37,6 +38,8 @@ app.use('/auth' , auth)
 app.use('/user' , authVerify , user)
 app.use('/watchlater', authVerify, watchlater)
 app.use('/likedVideos', authVerify, likedVideos)
+app.use('/playlists', authVerify, playlists)
+
 
 
 app.use(routeNotFound);
