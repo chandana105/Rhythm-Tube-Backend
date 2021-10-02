@@ -23,7 +23,7 @@ const findPlaylistsByUserId = async (req, res, next) => {
 
 const findPlaylistByPlaylistId = async (req, res, next, playlistId) => {
   try {
-    const playlist = await req.playlists.find((item) => item._id == playlistId);
+    const playlist = await req.playlists.find((item) => item._id == playlistId)
     if (!playlist) {
       return res.status(400).json({ success: false, message: 'This playlist item doesn\'t exist. Please check with your playlistId again.' })
     }

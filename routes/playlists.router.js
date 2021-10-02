@@ -19,8 +19,10 @@ router.route('/userId')
     try {
       const NewPlaylist = new Playlists(newPlaylist);
       const savedPlaylist = await NewPlaylist.save();
-      const newPlaylistCreated = { _id: savedPlaylist._id, name: savedPlaylist.name, videos: savedPlaylist.playlistVideos[0] }
-      res.json({ success: true, newPlaylistCreated });
+      const newPlaylistCreated = { _id: savedPlaylist._id, name: savedPlaylist.name, playlistVideos: savedPlaylist.playlistVideos }
+
+      const getNewPlaylist = await Playlists.findOne({_id : newPlaylistCreated._id}).populate('playlistVideos.video')
+      res.json({ success: true, getNewPlaylist });
     } catch (err) {
       res.status(500).json({ success: false, message: "Unable to create new playlist", errorMessage: err.message })
     }
@@ -59,7 +61,8 @@ router
         playlist.playlistVideos = concat(playlist.playlistVideos, updatePlaylist.playlistVideos)
       }
       const updatedPlaylist = await playlist.save()
-      res.json({ success: true, updatedPlaylist })
+      const getUpdatedPlaylist = await Playlists.findOne({_id : playlist._id}).populate('playlistVideos.video')
+      res.json({ success: true, getUpdatedPlaylist })
     } catch (err) {
       res.status(500).json({ success: false, message: "Coudn't update the  playlist", errorMessage: err.message })
     }
@@ -87,7 +90,7 @@ router
     try{
     await video.remove()
     await playlist.save()
-    res.json({success:true, deletedVideo : video, deleted:true})
+    res.json({success:true, deletedVideo : video, deletedFromPlaylist : playlist, deleted:true})
   }catch(error){
     res.status(500).json({success:false, message:"Couldn't remove the video", errorMessage:err.message})
   }
