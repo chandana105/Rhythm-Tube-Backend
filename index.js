@@ -18,14 +18,14 @@ app.use(cors());
 initializeDBConnection();
 
 
-const insertIntoDB = require("./routes/insertIntoDB.router");
-const videos = require("./routes/video.router");
-const categories = require('./routes/category.router.js')
-const user = require("./routes/user.router");
-const auth = require('./routes/auth.router.js')
-const watchlater = require('./routes/watchlater.router.js');
-const likedVideos = require('./routes/likedVideos.router.js');
-const playlists = require('./routes/playlists.router.js');
+const insertIntoDB = require("./api/insertIntoDB.router.js");
+const videos = require("./api/video.router.js");
+const categories = require('./api/category.router.js')
+const user = require("./api/user.router.js");
+const auth = require('./api/auth.router.js')
+const watchlater = require('./api/watchlater.router.js');
+const likedVideos = require('./api/likedVideos.router.js');
+const playlists = require('./api/playlists.router.js');
 
 app.get('/', (req, res) => {
   res.send('Welcome to Rhythm Tube')
