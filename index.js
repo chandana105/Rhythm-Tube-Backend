@@ -16,14 +16,14 @@ app.use(bodyParser.json());
 
 // Configure CORS to allow requests from your frontend's origin
 app.use(cors({
-  origin: 'http://localhost:3000', // Allow only this origin
+  origin: 'https://rhythm-tube.netlify.app', // Allow only this origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
   credentials: true // Allow cookies and other credentials
 }));
 
 // Handle preflight requests
 app.options('*', cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://rhythm-tube.netlify.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
